@@ -91,6 +91,7 @@
         </record>
 
         <record id="account.account_payment_term" model="account.payment.term">
+            <field name="name" ref="l10n_it_fiscal_payment_term.fatturapa_tp02"/>
             <field name="fatturapa_pt_id" ref="l10n_it_fiscal_payment_term.fatturapa_tp02"/>
             <field name="fatturapa_pm_id" ref="l10n_it_fiscal_payment_term.fatturapa_mp05"/>
         </record>
